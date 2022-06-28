@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { MapTo } from '@adobe/aem-react-editable-components'
 import { LoginForm, InputBox } from './styles'
+import user from '../../assets/user.png'
+import lock from '../../assets/lock.png'
 
 const Form = (props) => {
 
@@ -23,13 +25,14 @@ const Form = (props) => {
             <h2>Login</h2>
             <InputBox error={error}>
                 <input placeholder='Usuário' value={sessionStorage.getItem('user')} onChange={(e)=>sessionStorage.setItem('user', e.target.value)} />
-                <img alt='User Icon' />
+                <img src={user} alt='User Icon' />
             </InputBox>
             <InputBox error={error}>
                 <input placeholder='Senha' type='password' value={sessionStorage.getItem('password')} onChange={(e)=>sessionStorage.setItem('password', e.target.value)} />
-                <img alt='Password Icon' />
+                <img src={lock} alt='Password Icon' />
             </InputBox>
-            <p>Ops, usuário ou senha inválidos. Tente novamente!</p>
+            <p>Ops, usuário ou senha inválidos.</p>
+            <p>Tente novamente!</p>
             <input value='Continuar' type='submit' />
         </LoginForm>
     )

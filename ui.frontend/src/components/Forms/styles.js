@@ -5,10 +5,16 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 height: ${props => props.height ?? '50%'};
+h2{
+    color: #FFFFFF;
+    font-size: 1.875rem;
+}
 p{
     color: #E9B425;
     font-weight: 700;
-    visibility: ${props => props.error ? 'visible' : 'hidden'}
+    visibility: ${props => props.error ? 'visible' : 'hidden'};
+    text-align: center;
+    margin: 0;
 }
 input{
     color: #FFFFFF;
@@ -34,6 +40,8 @@ input{
 }
 img{
     position: absolute;
+    right: 3%;
+    bottom: 38%;
     height: 20px;
     width: 20px;
 }
