@@ -1,0 +1,36 @@
+{
+  "id":"com.compasslogon:compasslogon.all:slingosgifeature:author:1.0.0-SNAPSHOT",
+  "configurations":  {
+    "com.adobe.granite.cors.impl.CORSPolicyImpl~compasslogon":    {
+      "alloworigin":[
+        "http://localhost:3000"
+      ],
+      "allowedpaths":[
+        "/(content|conf)/compasslogon.*"
+      ],
+      "supportedheaders":[
+        "Authorization",
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+        "Content-Type",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "supportedmethods":[
+        "GET",
+        "HEAD"
+      ],
+      "alloworiginregexp":[
+      ],
+      ":configurator:content-package-origins":"com.compasslogon:compasslogon.all:1.0.0-SNAPSHOT|com.compasslogon:compasslogon.ui.config:1.0.0-SNAPSHOT"
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~compasslogon":    {
+      "mobile.resourceTypes":[
+        "compasslogon/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:content-package-origins":"com.compasslogon:compasslogon.all:1.0.0-SNAPSHOT|com.compasslogon:compasslogon.ui.config:1.0.0-SNAPSHOT"
+    }
+  }
+}

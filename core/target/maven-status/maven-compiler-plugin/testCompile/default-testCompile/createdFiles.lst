@@ -1,0 +1,7 @@
+com\compasslogon\core\servlets\SimpleServletTest.class
+com\compasslogon\core\testcontext\AppAemContext.class
+com\compasslogon\core\models\HelloWorldModelTest.class
+com\compasslogon\core\schedulers\SimpleScheduledTaskTest.class
+com\compasslogon\core\filters\LoggingFilterTest.class
+com\compasslogon\core\listeners\SimpleResourceListenerTest.class
+com\compasslogon\core\testcontext\AppAemContext$1.class

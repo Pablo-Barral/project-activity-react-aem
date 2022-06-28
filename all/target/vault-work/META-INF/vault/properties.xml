@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Compass Logon - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2022-06-28T14:02:02.746Z</entry>
+<entry key="groupId">com.compasslogon</entry>
+<entry key="name">compasslogon.all</entry>
+<entry key="description">All content package for Compass Logon</entry>
+<entry key="artifactId">compasslogon.all</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.compasslogon</entry>
+</properties>

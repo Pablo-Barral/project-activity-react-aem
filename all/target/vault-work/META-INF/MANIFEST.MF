@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Compass Logon - All
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.compasslogon:compasslogon.all:1.0.0-SNAPSHOT
+Content-Package-Description: All content package for Compass Logon
+Content-Package-Roots: /apps/compasslogon-packages,/apps/compasslogon-ve
+ ndor-packages
+

@@ -1,0 +1,4 @@
+com\compasslogon\it\tests\GetPageIT.class
+com\compasslogon\it\tests\PublishPageValidationIT.class
+com\compasslogon\it\tests\CreatePageIT.class
+com\compasslogon\it\tests\HtmlUnitClient.class
