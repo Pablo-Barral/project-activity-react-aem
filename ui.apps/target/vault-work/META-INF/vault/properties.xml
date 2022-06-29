@@ -4,7 +4,7 @@
 <comment>Compass Logon - UI apps</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-06-29T13:15:10.968Z</entry>
+<entry key="created">2022-06-29T18:17:27.923Z</entry>
 <entry key="groupId">com.compasslogon</entry>
 <entry key="name">compasslogon.ui.apps</entry>
 <entry key="description">UI apps package for Compass Logon</entry>

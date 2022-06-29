@@ -11,6 +11,9 @@ height: ${props => props.height ?? '50%'};
 min-height: 310px;
 margin: 7vh 0;
 margin-left: 5vw;
+@media(max-width: 768px){
+    width: 80%
+}
 h2{
     color: #FFFFFF;
     font-size: 1.875rem;
@@ -37,13 +40,12 @@ input{
 
 export const InputBox = styled.span`
 position: relative;
-width: 100%;
+width: 97%;
 border: 1px solid ${props => props.error ? '#E9B425' : '#FFFFFF' };
 border-radius: 50px;
 input{
     background: transparent;
     outline: 0;
-    width: 100%;
 }
 img{
     position: absolute;

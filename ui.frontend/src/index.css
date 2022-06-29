@@ -39,6 +39,10 @@ body {
   height: 100vh;
 }
 
+*{
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -55,6 +59,25 @@ p,
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
   width: 50vw;
   height: 100vh;
+}
+.login-form img{
+  display: none;
+}
+@media(max-width: 768px){
+  .login-form img{
+    display: block;
+  }
+}
+@media(max-width: 400px){
+  *{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+@media(max-width: 320px){
+  *{
+    margin: 0 !important;
+  }
 }
 .login-image{
   background: url(./assets/loginbg.png);
