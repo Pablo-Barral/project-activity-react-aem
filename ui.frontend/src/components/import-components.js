@@ -19,6 +19,7 @@ import './Page/Page';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
 import './Forms'
+import './TextContent'
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 

@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
 <entry key="dependencies-locations">com.compasslogon:compasslogon.ui.apps:1.0.0-SNAPSHOT=maven:com.compasslogon:compasslogon.ui.apps:1.0.0-SNAPSHOT:zip</entry>
-<entry key="created">2022-06-28T14:45:52.245Z</entry>
+<entry key="created">2022-06-29T13:15:14.373Z</entry>
 <entry key="groupId">com.compasslogon</entry>
 <entry key="description">UI content package for Compass Logon</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>

@@ -9,7 +9,9 @@ com\compasslogon\core\servlets\SimpleServlet.class
 com\compasslogon\core\listeners\SimpleResourceListener.class
 com\compasslogon\core\models\impl\InputImpl.class
 com\compasslogon\core\schedulers\package-info.class
+com\compasslogon\core\models\impl\TextContentImpl.class
 com\compasslogon\core\filters\LoggingFilter.class
+com\compasslogon\core\models\TextContent.class
 com\compasslogon\core\listeners\package-info.class
 com\compasslogon\core\models\Form.class
 com\compasslogon\core\models\impl\FormImpl.class
