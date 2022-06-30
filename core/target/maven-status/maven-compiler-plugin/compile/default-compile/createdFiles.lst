@@ -2,11 +2,13 @@ com\compasslogon\core\filters\package-info.class
 com\compasslogon\core\schedulers\SimpleScheduledTask.class
 com\compasslogon\core\schedulers\SimpleScheduledTask$Config.class
 com\compasslogon\core\servlets\package-info.class
+com\compasslogon\core\models\impl\HeaderContainerImpl.class
 com\compasslogon\core\models\package-info.class
 com\compasslogon\core\models\Input.class
 com\compasslogon\core\models\HelloWorldModel.class
 com\compasslogon\core\servlets\SimpleServlet.class
 com\compasslogon\core\listeners\SimpleResourceListener.class
+com\compasslogon\core\models\HeaderContainer.class
 com\compasslogon\core\models\impl\InputImpl.class
 com\compasslogon\core\schedulers\package-info.class
 com\compasslogon\core\models\impl\TextContentImpl.class

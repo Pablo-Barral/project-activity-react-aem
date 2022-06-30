@@ -40,5 +40,6 @@ Service-Component: OSGI-INF/com.compasslogon.core.filters.LoggingFilte
  l,OSGI-INF/com.compasslogon.core.servlets.SimpleServlet.xml
 Sling-Model-Classes: com.compasslogon.core.models.HelloWorldModel,com.
  compasslogon.core.models.impl.FormImpl,com.compasslogon.core.models.i
- mpl.InputImpl,com.compasslogon.core.models.impl.TextContentImpl
+ mpl.HeaderContainerImpl,com.compasslogon.core.models.impl.InputImpl,c
+ om.compasslogon.core.models.impl.TextContentImpl
 
