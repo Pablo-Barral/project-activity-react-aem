@@ -10,7 +10,9 @@ com\compasslogon\core\servlets\SimpleServlet.class
 com\compasslogon\core\listeners\SimpleResourceListener.class
 com\compasslogon\core\models\HeaderContainer.class
 com\compasslogon\core\models\impl\InputImpl.class
+com\compasslogon\core\models\FooterContainer.class
 com\compasslogon\core\schedulers\package-info.class
+com\compasslogon\core\models\impl\FooterContainerImpl.class
 com\compasslogon\core\models\impl\TextContentImpl.class
 com\compasslogon\core\filters\LoggingFilter.class
 com\compasslogon\core\models\TextContent.class
