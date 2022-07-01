@@ -4,13 +4,19 @@ import styled from "styled-components";
 const Timer = ({time}) => {
 
     const[timer, setTimer] = useState(time)
+    let timeControl = parseInt(localStorage.getItem('time'))
 
     const count = () => {
-        if(time){
+        if(timeControl){
             const counter = setInterval(()=>{
-                if(time > 0){
-                    time -= 1
-                    setTimer(time)
+                if(timeControl > 0){
+                    timeControl -= 1
+                    if(parseInt(localStorage.getItem('time')) === timeControl + 1 || parseInt(localStorage.getItem('time')) === timeControl){
+                        localStorage.setItem('time', timeControl)
+                    }else{
+                        timeControl = parseInt(localStorage.getItem('time'))
+                    }
+                    setTimer(localStorage.getItem('time'))
                 }else{
                     clearInterval(counter)
                 }
@@ -22,6 +28,7 @@ const Timer = ({time}) => {
     
     
     useEffect(()=>{
+        localStorage.setItem('time', time)
         count()
     },[])
 

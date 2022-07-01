@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/css/main.2821e5ff.chunk.css",
-    "main.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/main.2cd9235c.chunk.js",
-    "main.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/main.2cd9235c.chunk.js.map",
-    "runtime-main.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/runtime-main.f2060cb3.js",
-    "runtime-main.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/runtime-main.f2060cb3.js.map",
-    "static/js/2.8339a300.chunk.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/2.8339a300.chunk.js",
-    "static/js/2.8339a300.chunk.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/2.8339a300.chunk.js.map",
+    "main.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/main.04cbb160.chunk.js",
+    "main.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/main.04cbb160.chunk.js.map",
+    "runtime-main.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/runtime-main.9d32f16d.js",
+    "runtime-main.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/runtime-main.9d32f16d.js.map",
+    "static/js/2.459ace3b.chunk.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/2.459ace3b.chunk.js",
+    "static/js/2.459ace3b.chunk.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/2.459ace3b.chunk.js.map",
     "static/js/3.a930c659.chunk.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/3.a930c659.chunk.js",
     "static/js/3.a930c659.chunk.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/3.a930c659.chunk.js.map",
     "static/css/4.61b50e66.chunk.css": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/css/4.61b50e66.chunk.css",
     "static/js/4.6685a1a2.chunk.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/4.6685a1a2.chunk.js",
     "static/js/4.6685a1a2.chunk.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/4.6685a1a2.chunk.js.map",
-    "static/js/5.f28954f5.chunk.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/5.f28954f5.chunk.js",
-    "static/js/5.f28954f5.chunk.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/5.f28954f5.chunk.js.map",
+    "static/js/5.ee4a2b60.chunk.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/5.ee4a2b60.chunk.js",
+    "static/js/5.ee4a2b60.chunk.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/5.ee4a2b60.chunk.js.map",
     "static/js/6.9c16bd7a.chunk.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/6.9c16bd7a.chunk.js",
     "static/js/6.9c16bd7a.chunk.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/6.9c16bd7a.chunk.js.map",
     "index.html": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/index.html",
     "static/css/4.61b50e66.chunk.css.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/css/4.61b50e66.chunk.css.map",
     "static/css/main.2821e5ff.chunk.css.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/css/main.2821e5ff.chunk.css.map",
-    "static/js/2.8339a300.chunk.js.LICENSE.txt": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/2.8339a300.chunk.js.LICENSE.txt",
+    "static/js/2.459ace3b.chunk.js.LICENSE.txt": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/2.459ace3b.chunk.js.LICENSE.txt",
     "static/js/3.a930c659.chunk.js.LICENSE.txt": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/3.a930c659.chunk.js.LICENSE.txt",
     "static/media/cloud.a7a88a5e.png": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/media/cloud.a7a88a5e.png",
     "static/media/cloudy.459ea4a1.png": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/media/cloudy.459ea4a1.png",
@@ -30,9 +30,9 @@
     "static/media/thunder.35756518.png": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/media/thunder.35756518.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f2060cb3.js",
-    "static/js/2.8339a300.chunk.js",
+    "static/js/runtime-main.9d32f16d.js",
+    "static/js/2.459ace3b.chunk.js",
     "static/css/main.2821e5ff.chunk.css",
-    "static/js/main.2cd9235c.chunk.js"
+    "static/js/main.04cbb160.chunk.js"
   ]
 }
