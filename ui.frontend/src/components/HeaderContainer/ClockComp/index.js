@@ -43,7 +43,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 h2{
-    font-size: 9rem;
+    font-size: clamp(7.6rem, 8.5vw, 9rem);
     font-weight: 700;
     margin: 0;
 }
@@ -52,7 +52,7 @@ p{
     margin: 0;
 }
 @media(max-width: 768px){
-    visibility: hidden;
+    display: none;
 }
 `
 

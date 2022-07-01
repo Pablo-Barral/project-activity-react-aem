@@ -89,3 +89,36 @@ p,
   margin-top: 15vh;
   margin-left: 5vw;
 }
+.text-box{
+  position: absolute;
+  text-align: right;
+  right: 7%;
+  bottom: 30%;
+}
+/* .text-box p{
+  position: relative;
+  right: 7%;
+  top: 50%;
+} */
+.home-main{
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
+}
+.home-main img{
+  min-height: 65%;
+  position: absolute;
+  max-width: 680px;
+  max-height: 680px;
+  width: 38vw;
+  bottom: 0;
+}
+@media(max-width: 768px){
+  .text-box, .text-box p{
+    display: none;
+  }
+  .home-main img{
+    width: 80vw;
+    max-height: 65%;
+  }
+}

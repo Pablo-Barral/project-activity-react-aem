@@ -187,7 +187,7 @@ useEffect(() => {
         <StyledWeather color={color}>
             <p>{cityShow} - {stateShow}</p>
             <span>
-                <img draggable='false' src={iconShow} alt="Weather Icon" />
+                <img className='weatherIcon' draggable='false' src={iconShow} alt="Weather Icon" />
                 <h2>{temp}°</h2>
             </span>
         </StyledWeather>
@@ -212,9 +212,11 @@ p{
     font-size: 0.875rem;
     color: ${props=>props.color};
 }
-img{
+.weatherIcon{
     width: 30px;
     height: 30px;
+    min-height: auto;
+    position: static;
 }
 `
 

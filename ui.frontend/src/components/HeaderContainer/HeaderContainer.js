@@ -8,7 +8,7 @@ import CompWeather from './WeatherComp'
 const HeaderComp = ({color}) => {
     return(
         <StyledHead color={color}>
-            <span><img draggable='false' src={compassBlack} alt='Compass Logo'/></span>
+            <img className='headImg' draggable='false' src={compassBlack} alt='Compass Logo'/>
             <CompClock/>
             <CompWeather/>
         </StyledHead>

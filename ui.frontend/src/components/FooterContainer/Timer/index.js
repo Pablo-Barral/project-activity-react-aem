@@ -58,7 +58,7 @@ text-align: right;
 `
 const Time = styled.p`
 color: white;
-font-size: 3rem;
+font-size: 2.9rem;
 font-weight: 700;
 margin: 0;
 `
