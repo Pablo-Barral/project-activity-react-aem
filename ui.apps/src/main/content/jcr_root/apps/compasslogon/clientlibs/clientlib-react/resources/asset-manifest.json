@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/css/main.2821e5ff.chunk.css",
-    "main.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/main.04cbb160.chunk.js",
-    "main.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/main.04cbb160.chunk.js.map",
+    "main.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/main.9eb2e8dd.chunk.js",
+    "main.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/main.9eb2e8dd.chunk.js.map",
     "runtime-main.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/runtime-main.9d32f16d.js",
     "runtime-main.js.map": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/runtime-main.9d32f16d.js.map",
     "static/js/2.459ace3b.chunk.js": "/etc.clientlibs/compasslogon/clientlibs/clientlib-react/resources/static/js/2.459ace3b.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.9d32f16d.js",
     "static/js/2.459ace3b.chunk.js",
     "static/css/main.2821e5ff.chunk.css",
-    "static/js/main.04cbb160.chunk.js"
+    "static/js/main.9eb2e8dd.chunk.js"
   ]
 }

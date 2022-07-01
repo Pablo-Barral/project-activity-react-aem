@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from 'react-router-dom'
 import styled from "styled-components";
 
 const Timer = ({time}) => {
+
+    const nav = useNavigate()
 
     const[timer, setTimer] = useState(time)
     let timeControl = parseInt(localStorage.getItem('time'))
@@ -19,6 +22,7 @@ const Timer = ({time}) => {
                     setTimer(localStorage.getItem('time'))
                 }else{
                     clearInterval(counter)
+                    nav(url_variable)
                 }
             }, 1000)
         }else{

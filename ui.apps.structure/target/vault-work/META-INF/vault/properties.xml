@@ -4,7 +4,7 @@
 <comment>Compass Logon - Repository Structure Package</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-07-01T15:53:49.563Z</entry>
+<entry key="created">2022-07-01T15:58:33.407Z</entry>
 <entry key="groupId">com.compasslogon</entry>
 <entry key="name">compasslogon.ui.apps.structure</entry>
 <entry key="description">Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.

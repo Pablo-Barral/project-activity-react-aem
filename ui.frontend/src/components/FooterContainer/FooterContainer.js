@@ -17,10 +17,8 @@ const FooterComp = ({time, url_variable}) => {
             <p className='footerText'>Essa janela do navegador é usada para manter sua sessão de autenticação ativa.
              Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.</p>
             <span>|</span>
-            <Timer time={time}/>
-            <div onClick={resetTime}>
-                <ContinueBtn>Continuar Navegando</ContinueBtn>
-            </div>
+            <Timer time={time} url_variable={url_variable}/>
+            <ContinueBtn onClick={resetTime}>Continuar Navegando</ContinueBtn>
             <Link to={url_variable}>
                 <LogoutBtn>Logout</LogoutBtn>
             </Link>
