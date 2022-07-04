@@ -35,6 +35,7 @@ input{
     border: 0;
     padding: 20px;
     box-sizing: border-box;
+    text-align: center !important;
 }
 `
 
@@ -46,6 +47,7 @@ border-radius: 50px;
 input{
     background: transparent;
     outline: 0;
+    text-align: left !important;
 }
 img{
     position: absolute;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-/* position: absolute; */
+position: absolute;
 width: 100%;
 bottom: 0;
 background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
@@ -50,6 +50,7 @@ color: #C13216;
 font-size: 0.75rem;
 border: 0;
 grid-column: 7;
+text-align: center !important;
 @media(max-width: 768px){
         grid-column: 2;
     }
@@ -62,6 +63,7 @@ color: white;
 font-weight: 700;
 border: 0;
 grid-column: 8;
+text-align: center !important;
 @media(max-width: 768px){
         position: absolute;
         width: 27%;

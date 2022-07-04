@@ -39,12 +39,15 @@ body {
   height: 100vh;
   text-align: right;
   position: relative;
+  overflow: hidden;
 }
-body div[data-cq-data-path="/content/compasslogon/us/en/logged"]{
+
+/* main home */
+div[class=" aem-GridColumn aem-GridColumn--default--12"]{
   background: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
   height: 100vh;
 }
-body div[data-cq-data-path="/content/compasslogon/us/en/logged"] img{
+img[alt='UOL Ball']{
   min-height: 65%;
   position: absolute;
   max-width: 680px;
@@ -53,15 +56,21 @@ body div[data-cq-data-path="/content/compasslogon/us/en/logged"] img{
   bottom: 0;
   left: 0;
 }
-div[data-cq-data-path="/content/compasslogon/us/en/logged"] div[data-cq-data-path="/content/compasslogon/us/en/logged/jcr:content/root/responsivegrid/container/container_534283708"]{
+
+/* text box */
+div[class=" aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"]{
   position: absolute;
-  text-align: right;
+  text-align: right !important; 
   right: 7%;
   bottom: 30%;
 }
+div[class=" aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"] p{
+  text-align: right !important;
+}
 
 *{
-  overflow: hidden;
+  overflow: visible;
+  text-align: left;
 }
 
 h1,
@@ -76,16 +85,18 @@ p,
   color: #000000;
 }
 
-.login-form{
+/* login form */
+div[class=" aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--default--6 aem-GridColumn--phone--12"]{
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
   width: 50vw;
   height: 100vh;
 }
-.login-form img{
+/* login form img */
+div[class=" aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--default--6 aem-GridColumn--phone--12"] img{
   display: none;
 }
 @media(max-width: 768px){
-  .login-form img{
+  div[class=" aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--default--6 aem-GridColumn--phone--12"] img{
     display: block;
   }
 }
@@ -100,21 +111,34 @@ p,
     margin: 0 !important;
   }
 }
-.login-image{
+
+/* login image */
+div[class="aem-container aem-Grid aem-Grid--6 aem-Grid--tablet--6 aem-Grid--default--6"]{
   background: url(./assets/loginbg.png);
   background-size: cover;
   width: 50vw;
   height: 100vh;
 }
-.greet-box{
-  margin-top: 15vh;
-  margin-left: 5vw;
+
+/* greet box */
+div[class=" aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"]{
+ position: relative;
+ top: -75vh;
+ left: 5vw;
 }
+
 @media(max-width: 768px){
-  div[data-cq-data-path="/content/compasslogon/us/en/logged"] div[data-cq-data-path="/content/compasslogon/us/en/logged/jcr:content/root/responsivegrid/container/container_534283708"], div[data-cq-data-path="/content/compasslogon/us/en/logged"] div[data-cq-data-path="/content/compasslogon/us/en/logged/jcr:content/root/responsivegrid/container/container_534283708"] p{
+
+  /* greet-box */
+  div[class=" aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"]{
+    left: 0;
+  }
+
+  /* text box */
+  div[class=" aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"], div[class=" aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"] p{
     display: none;
   }
-  body div[data-cq-data-path="/content/compasslogon/us/en/logged"] img{
+  img[alt='UOL Ball']{
     width: 80vw;
     max-height: 65%;
   }

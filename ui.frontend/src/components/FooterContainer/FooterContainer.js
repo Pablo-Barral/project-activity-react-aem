@@ -10,6 +10,9 @@ const FooterComp = ({time, url_variable}) => {
     const resetTime = () => {
         localStorage.setItem('time', timeStore)
     }
+    const logout = () => {
+        localStorage.setItem('time', '0')
+    }
 
     return(
         <StyledFooter>
@@ -18,7 +21,7 @@ const FooterComp = ({time, url_variable}) => {
             <span>|</span>
             <Timer time={time} url_variable={url_variable}/>
             <ContinueBtn onClick={resetTime}>Continuar Navegando</ContinueBtn>
-            <LogoutBtn>Logout</LogoutBtn>
+            <LogoutBtn onClick={logout}>Logout</LogoutBtn>
         </StyledFooter>
     )
 }
