@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { MapTo } from '@adobe/aem-react-editable-components'
 import { ContinueBtn, LogoutBtn, StyledFooter } from './styles'
 import Timer from './Timer'
