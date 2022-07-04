@@ -1,33 +1,30 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import styled from "styled-components";
 
-const Timer = ({time}) => {
+const Timer = ({time, url_variable}) => {
 
-    const nav = useNavigate()
+    const nav = useHistory()
 
     const[timer, setTimer] = useState(time)
     let timeControl = parseInt(localStorage.getItem('time'))
 
     const count = () => {
-        if(timeControl){
-            const counter = setInterval(()=>{
-                if(timeControl > 0){
-                    timeControl -= 1
-                    if(parseInt(localStorage.getItem('time')) === timeControl + 1 || parseInt(localStorage.getItem('time')) === timeControl){
-                        localStorage.setItem('time', timeControl)
-                    }else{
-                        timeControl = parseInt(localStorage.getItem('time'))
-                    }
-                    setTimer(localStorage.getItem('time'))
+        timeControl = parseInt(localStorage.getItem('time'))
+        const counter = setInterval(()=>{
+            if(timeControl > 0){
+                timeControl -= 1
+                if(parseInt(localStorage.getItem('time')) === timeControl + 1 || parseInt(localStorage.getItem('time')) === timeControl){
+                    localStorage.setItem('time', timeControl)
                 }else{
-                    clearInterval(counter)
-                    nav(url_variable)
+                    timeControl = parseInt(localStorage.getItem('time'))
                 }
-            }, 1000)
-        }else{
-            console.log('else')
-        }
+                setTimer(localStorage.getItem('time'))
+            }else{
+                clearInterval(counter)
+                nav.push(url_variable)
+            }
+        }, 1000)
     }
     
     

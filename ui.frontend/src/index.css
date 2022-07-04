@@ -37,6 +37,27 @@ body {
   background-color: #ffffff;
   width: 100vw;
   height: 100vh;
+  text-align: right;
+  position: relative;
+}
+body div[data-cq-data-path="/content/compasslogon/us/en/logged"]{
+  background: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
+  height: 100vh;
+}
+body div[data-cq-data-path="/content/compasslogon/us/en/logged"] img{
+  min-height: 65%;
+  position: absolute;
+  max-width: 680px;
+  max-height: 680px;
+  width: 38vw;
+  bottom: 0;
+  left: 0;
+}
+div[data-cq-data-path="/content/compasslogon/us/en/logged"] div[data-cq-data-path="/content/compasslogon/us/en/logged/jcr:content/root/responsivegrid/container/container_534283708"]{
+  position: absolute;
+  text-align: right;
+  right: 7%;
+  bottom: 30%;
 }
 
 *{
@@ -89,35 +110,11 @@ p,
   margin-top: 15vh;
   margin-left: 5vw;
 }
-.text-box{
-  position: absolute;
-  text-align: right;
-  right: 7%;
-  bottom: 30%;
-}
-/* .text-box p{
-  position: relative;
-  right: 7%;
-  top: 50%;
-} */
-.home-main{
-  position: relative;
-  height: 100vh;
-  background: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
-}
-.home-main img{
-  min-height: 65%;
-  position: absolute;
-  max-width: 680px;
-  max-height: 680px;
-  width: 38vw;
-  bottom: 0;
-}
 @media(max-width: 768px){
-  .text-box, .text-box p{
+  div[data-cq-data-path="/content/compasslogon/us/en/logged"] div[data-cq-data-path="/content/compasslogon/us/en/logged/jcr:content/root/responsivegrid/container/container_534283708"], div[data-cq-data-path="/content/compasslogon/us/en/logged"] div[data-cq-data-path="/content/compasslogon/us/en/logged/jcr:content/root/responsivegrid/container/container_534283708"] p{
     display: none;
   }
-  .home-main img{
+  body div[data-cq-data-path="/content/compasslogon/us/en/logged"] img{
     width: 80vw;
     max-height: 65%;
   }

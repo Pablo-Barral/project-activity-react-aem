@@ -31,4 +31,6 @@ public interface FooterContainer {
 
     String getTime();
 
+    String getUrl_variable();
+
 }

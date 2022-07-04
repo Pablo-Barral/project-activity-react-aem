@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { MapTo } from '@adobe/aem-react-editable-components'
 import { ContinueBtn, LogoutBtn, StyledFooter } from './styles'
 import Timer from './Timer'
-import { Link } from 'react-router-dom'
 
 const FooterComp = ({time, url_variable}) => {
 
@@ -19,9 +18,7 @@ const FooterComp = ({time, url_variable}) => {
             <span>|</span>
             <Timer time={time} url_variable={url_variable}/>
             <ContinueBtn onClick={resetTime}>Continuar Navegando</ContinueBtn>
-            <Link to={url_variable}>
-                <LogoutBtn>Logout</LogoutBtn>
-            </Link>
+            <LogoutBtn>Logout</LogoutBtn>
         </StyledFooter>
     )
 }
