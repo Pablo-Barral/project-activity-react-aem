@@ -8,5 +8,5 @@
         sling:resourceType="compasslogon/components/spa"
         pageTitle="Compass Logon"/>
     <home/>
-    <Home/>
+    <logged/>
 </jcr:root>

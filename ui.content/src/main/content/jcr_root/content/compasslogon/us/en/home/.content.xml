@@ -2,22 +2,177 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-06-29T08:53:26.235-03:00"
+        cq:lastModified="{Date}2022-07-04T14:56:15.357-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/compasslogon/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Compass - Home"
-        sling:resourceType="compasslogon/components/page">
+        jcr:title="Compass - Login"
+        sling:resourceType="compasslogon/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
-                jcr:created="{Date}2018-10-22T16:48:57.968+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-10-22T16:49:29.168+05:30"
-                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <input
+                    jcr:created="{Date}2022-06-27T14:42:47.441-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-27T16:11:45.912-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="compasslogon/components/content/input"/>
+                <container
+                    cq:styleIds="[1656436675247]"
+                    jcr:created="{Date}2022-06-28T13:10:19.414-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-01T16:48:13.681-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="compasslogon/components/container">
+                    <container_1034737317
+                        jcr:created="{Date}2022-06-29T14:41:58.924-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-06-29T14:41:58.924-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="compasslogon/components/container">
+                        <image
+                            jcr:created="{Date}2022-06-29T14:42:02.725-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-06-29T14:42:37.469-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="compasslogon/components/image"
+                            alt="Compass Logo White"
+                            altValueFromDAM="false"
+                            displayPopupTitle="true"
+                            fileReference="/content/dam/compasslogon/compasswhite.png"
+                            isDecorative="false"
+                            titleValueFromDAM="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="4"/>
+                            </cq:responsive>
+                        </image>
+                    </container_1034737317>
+                    <container
+                        cq:styleIds="[1656449478448]"
+                        jcr:created="{Date}2022-06-28T16:04:36.512-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-06-28T16:04:36.512-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="compasslogon/components/container">
+                        <text_content
+                            jcr:created="{Date}2022-06-28T16:04:47.339-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-06-28T16:05:58.135-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="compasslogon/components/content/text-content"
+                            color="white"
+                            size="3.75rem"
+                            text="Olá,"
+                            weight="400">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="3"/>
+                            </cq:responsive>
+                        </text_content>
+                        <text_content_1462941846
+                            jcr:created="{Date}2022-06-28T16:18:29.504-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-06-28T16:20:38.282-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="compasslogon/components/content/text-content"
+                            color="white"
+                            text="Para continuar navegando de forma segura, efetue o login na rede.">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="3"/>
+                            </cq:responsive>
+                        </text_content_1462941846>
+                    </container>
+                    <form
+                        jcr:created="{Date}2022-06-28T13:10:23.734-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-04T14:56:15.351-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="compasslogon/components/content/form"
+                        height="37.5vh"
+                        url_variable="/content/compasslogon/us/en/logged">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="4"/>
+                        </cq:responsive>
+                    </form>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </container>
+                <container_382479347
+                    cq:styleIds="1656436700363"
+                    jcr:created="{Date}2022-06-29T13:34:19.432-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-29T13:34:19.432-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="compasslogon/components/container">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                    <image
+                        jcr:lastModified="{Date}2022-06-29T13:35:38.408-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="compasslogon/components/image"
+                        alt="Compass Logo White"
+                        altValueFromDAM="false"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/compasslogon/compasswhite.png"
+                        id="whiteLogo"
+                        isDecorative="false"
+                        titleValueFromDAM="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="4"/>
+                        </cq:responsive>
+                    </image>
+                </container_382479347>
+            </responsivegrid>
         </root>
     </jcr:content>
 </jcr:root>
