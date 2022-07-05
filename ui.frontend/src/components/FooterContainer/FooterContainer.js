@@ -3,7 +3,7 @@ import { MapTo } from '@adobe/aem-react-editable-components'
 import { ContinueBtn, LogoutBtn, StyledFooter } from './styles'
 import Timer from './Timer'
 
-const FooterComp = ({time, url_variable}) => {
+const FooterComp = ({time, url_variable, text}) => {
 
     const timeStore = time
 
@@ -18,8 +18,7 @@ const FooterComp = ({time, url_variable}) => {
 
     return(
         <StyledFooter>
-            <p className='footerText'>Essa janela do navegador é usada para manter sua sessão de autenticação ativa.
-             Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.</p>
+            <p className='footerText'>{text ? text : 'DEFAULT FOOTER TEXT'}</p>
             <span>|</span>
             <Timer time={time} url_variable={url_variable}/>
             <ContinueBtn onClick={resetTime}>Continuar Navegando</ContinueBtn>

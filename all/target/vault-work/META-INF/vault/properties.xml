@@ -3,7 +3,7 @@
 <properties>
 <comment>Compass Logon - All</comment>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-07-05T11:43:41.173Z</entry>
+<entry key="created">2022-07-05T14:20:10.643Z</entry>
 <entry key="groupId">com.compasslogon</entry>
 <entry key="name">compasslogon.all</entry>
 <entry key="description">All content package for Compass Logon</entry>

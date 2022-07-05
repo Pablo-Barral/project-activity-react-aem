@@ -1,18 +1,17 @@
 import styled from 'styled-components'
 
 export const LoginForm = styled.form`
-position: absolute;
-bottom: 35px;
+position: relative;
+bottom: 145vh;
+left: 5vw;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-width: 25%;
+width: 75%;
 height: ${props => props.height ?? '50%'};
 min-height: 310px;
-margin: 7vh 0;
-margin-left: 5vw;
 @media(max-width: 768px){
-    width: 80%
+    width: 80vw
 }
 h2{
     color: #FFFFFF;

@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-position: absolute;
+position: relative;
 width: 100%;
-bottom: 0;
+bottom: 10vh;
 background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
 display: grid;
 grid-template-columns: 18.5% 28% 4% 4.5% 12% 19% 7% 7%;

@@ -42,6 +42,7 @@ const Form = ({height, url_variable}) => {
             valid = true
         }
         setTimeout(()=>{
+            console.log('relog')
             if(valid){
                 login()
             }

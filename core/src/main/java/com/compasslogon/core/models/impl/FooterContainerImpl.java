@@ -34,11 +34,18 @@ public class FooterContainerImpl
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String time;
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String text;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String url_variable;
 
     @Override
     public String getTime() {
         return time;
+    }
+
+    @Override
+    public String getText() {
+        return text;
     }
 
     @Override
