@@ -22,6 +22,7 @@ const Timer = ({time, url_variable}) => {
                 setTimer(localStorage.getItem('time'))
             }else{
                 clearInterval(counter)
+                document.title = 'Compass - Login'
                 nav.push(url_variable)
             }
         }, 1000)
