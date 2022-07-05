@@ -1,4 +1,4 @@
-# File created on Tue Jul 05 11:20:11 BRT 2022 by the Apache Sling Content Package to Sling Feature converter
+# File created on Tue Jul 05 11:31:38 BRT 2022 by the Apache Sling Content Package to Sling Feature converter
 # content-package path, content-package ID, content-package type, content-package parent ID, path in parent content-package, absolute path
 C:\Users\pablo.barral\OneDrive - COMPASSO TECNOLOGIA LTDA\Desktop\Projetos\AEM\compasslogon\all\target\compasslogon.all-1.0.0-SNAPSHOT.zip,com.compasslogon:compasslogon.all:1.0.0-SNAPSHOT,CONTAINER,,,
 C:\Users\pablo.barral\OneDrive - COMPASSO TECNOLOGIA LTDA\Desktop\Projetos\AEM\compasslogon\all\target\compasslogon.all-1.0.0-SNAPSHOT.zip,com.compasslogon:compasslogon.ui.config:1.0.0-SNAPSHOT,CONTAINER,com.compasslogon:compasslogon.all:1.0.0-SNAPSHOT,/jcr_root/apps/compasslogon-packages/application/install/compasslogon.ui.config-1.0.0-SNAPSHOT.zip,C:\Users\pablo.barral\OneDrive - COMPASSO TECNOLOGIA LTDA\Desktop\Projetos\AEM\compasslogon\all\target\compasslogon.all-1.0.0-SNAPSHOT.zip!/jcr_root/apps/compasslogon-packages/application/install/compasslogon.ui.config-1.0.0-SNAPSHOT.zip
