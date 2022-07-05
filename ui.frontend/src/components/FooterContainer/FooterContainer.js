@@ -11,6 +11,8 @@ const FooterComp = ({time, url_variable}) => {
         localStorage.setItem('time', timeStore)
     }
     const logout = () => {
+        sessionStorage.removeItem('user')
+        sessionStorage.removeItem('password')
         localStorage.setItem('time', '0')
     }
 
