@@ -38,14 +38,11 @@ const Form = ({height, url_variable}) => {
     useEffect(()=>{
         sessionStorage.getItem('user') && setUserVal(sessionStorage.getItem('user'))
         sessionStorage.getItem('password') && setPassVal(sessionStorage.getItem('password'))
-        if ( /^[a-zA-Z]+\.[a-zA-Z]+ $/.test(sessionStorage.getItem('user')) && /^[0-9]{6,9}$/.test(sessionStorage.getItem('password'))){
+        if (/^[a-zA-Z]+\.[a-zA-Z]+$/.test(sessionStorage.getItem('user')) && /^[0-9]{6,9}$/.test(sessionStorage.getItem('password'))){
             valid = true
         }
         setTimeout(()=>{
-            console.log('relog')
-            if(valid){
-                login()
-            }
+            login()
         }, 5000)
     },[])
 
