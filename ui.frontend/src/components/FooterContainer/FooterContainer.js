@@ -19,7 +19,7 @@ const FooterComp = ({time, url_variable, text}) => {
     return(
         <StyledFooter>
             <p className='footerText'>{text ? text : 'DEFAULT FOOTER TEXT'}</p>
-            <span>|</span>
+            <span></span>
             <Timer time={time} url_variable={url_variable}/>
             <ContinueBtn onClick={resetTime}>Continuar Navegando</ContinueBtn>
             <LogoutBtn onClick={logout}>Logout</LogoutBtn>

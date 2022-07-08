@@ -4,7 +4,7 @@
 <comment>Compass Logon - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-07-05T16:00:09.444Z</entry>
+<entry key="created">2022-07-08T12:26:55.664Z</entry>
 <entry key="groupId">com.compasslogon</entry>
 <entry key="name">compasslogon.ui.config</entry>
 <entry key="description">UI config package for Compass Logon</entry>

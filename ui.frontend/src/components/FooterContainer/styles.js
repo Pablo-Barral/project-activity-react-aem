@@ -33,12 +33,9 @@ span{
     grid-column: 3;
     text-align: center;
     color: white;
-    font-size: 4.5rem;
-    padding: 7% 10% 15% 10%;
-    @media(max-width: 1000px){
-        padding: 7% 5%;
-        font-size: 4rem;
-    }
+    border-right: solid 2px white;
+    height: 60%;
+    margin: 20% 0;
     @media(max-width: 768px){
         display: none;
     }

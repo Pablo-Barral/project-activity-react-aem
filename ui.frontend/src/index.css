@@ -16,6 +16,8 @@
 
 /* Global styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 html,
 body {
   border: 0;
@@ -69,6 +71,7 @@ div[class=" aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--de
 }
 
 *{
+  font-family: 'Poppins', sans-serif;
   overflow: visible;
   text-align: left;
   -webkit-user-select: none; /* Safari */
