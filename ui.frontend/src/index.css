@@ -16,6 +16,8 @@
 
 /* Global styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 html,
 body {
   border: 0;
@@ -26,8 +28,58 @@ body {
   vertical-align: baseline;
 }
 
+.page{
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  max-width: 100vw;
+}
+
 body {
   background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  text-align: right;
+  position: relative;
+  overflow: hidden;
+}
+
+/* main home */
+div[class=" aem-GridColumn aem-GridColumn--default--12"]{
+  background: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
+  height: 100vh;
+}
+img[alt='UOL Ball']{
+  min-height: 65%;
+  position: absolute;
+  max-width: 680px;
+  max-height: 680px;
+  width: 38vw;
+  bottom: 0;
+  left: 0;
+}
+
+/* text box */
+div[class=" aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"]{
+  position: relative;
+  text-align: right !important; 
+  bottom: 65vh;
+  left: 28vw;
+}
+div[class=" aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"] p{
+  text-align: right !important;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  overflow: visible;
+  text-align: left;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+#spa-root img{
+  pointer-events: none
 }
 
 h1,
@@ -40,4 +92,65 @@ p,
 .rw-box {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   color: #000000;
+}
+
+/* login form */
+div[class=" aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--default--6 aem-GridColumn--phone--12"]{
+  background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+  width: 50vw;
+  height: 100vh;
+  max-height: 1080px;
+}
+/* login form img */
+div[class=" aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--default--6 aem-GridColumn--phone--12"] img{
+  display: none;
+}
+@media(max-width: 768px){
+  div[class=" aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--default--6 aem-GridColumn--phone--12"] img{
+    display: block;
+  }
+}
+@media(max-width: 400px){
+  *{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+@media(max-width: 320px){
+  *{
+    margin: 0 !important;
+  }
+}
+
+/* login image */
+div[class="aem-container aem-Grid aem-Grid--6 aem-Grid--tablet--6 aem-Grid--default--6"]{
+  background: url(./assets/loginbg.png);
+  background-size: cover;
+  width: 50vw;
+  height: 100vh;
+  max-height: 1080px;
+}
+
+/* greet box */
+div[class=" aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"]{
+ position: relative;
+ top: -75vh;
+ left: 5vw;
+}
+
+@media(max-width: 768px){
+
+  /* greet-box */
+  div[class=" aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"]{
+    left: 0;
+  }
+
+  /* text box */
+  div[class=" aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"], div[class=" aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--1 aem-GridColumn--default--none"] p{
+    display: none;
+  }
+  img[alt='UOL Ball']{
+    width: 80vw;
+    max-height: 65%;
+  }
 }

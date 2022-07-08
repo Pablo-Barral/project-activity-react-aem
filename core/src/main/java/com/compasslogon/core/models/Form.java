@@ -31,4 +31,6 @@ public interface Form {
 
     String getHeight();
 
+    String getUrl_variable();
+
 }

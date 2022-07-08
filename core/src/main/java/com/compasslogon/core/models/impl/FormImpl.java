@@ -33,10 +33,17 @@ public class FormImpl
 
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String height;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String url_variable;
 
     @Override
     public String getHeight() {
         return height;
+    }
+
+    @Override
+    public String getUrl_variable() {
+        return url_variable;
     }
 
 }
